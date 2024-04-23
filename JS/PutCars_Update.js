@@ -21,5 +21,6 @@ formEl.addEventListener('submit', event => {
     }).then(res => res.json())
       .then(data => console.log(data))
       .then(error => console.log(error))
+      window.alert("Inventory Updated");
     }
 });
