@@ -1,9 +1,9 @@
-<html>
-    <title>Update Year</title>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
- <head>
+<head>
     <meta charset="utf-8">
-    <title>Horizontal Navigation Bar</title>
+    <title>Update</title>
     <meta name="viewport" content="width=devoce-width, inttial-scale=1.0">
     <link rel="stylesheet" href="./StyleSheets/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -19,20 +19,14 @@
         });
     </script>
 
-    <!--Style sheet-->
-    <link rel="stylesheet" href="./StyleSheets/style.css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./StyleSheets/AddUpdateStyle.css">
+<title>Registration Form Using HTML/CSS</title>
 
-    <!--Bootstrap-->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
-    
- </head>
- <body>
+</head>
 
+<body>
     <nav>
         <label class="logo">Z Brothers</label>
         <ul>
@@ -41,43 +35,50 @@
             <li><a href="PostCars_Add.html">Add Inventory</a></li>
             <li><a href="PutCars_Update.html">Update Inventory</a></li>
             
+            
         </ul>
         <label id="icon">
             <i class="fa-solid fa-bars"></i>
         </label>
     </nav>
 
-    <h1 class="pages-text-center">Z Brothers Cars - Update Year</h1>
+    <div id="container">
+        <!-- Form Wrap Start -->
+        <div class="form-wrap">
+          <h1>Update Car Year</h1>
+          <!-- Form Start -->
+          <form class="form">
+            <div class="form-group">
+                <label for="id"><b>Id</b></label>
+                <input name="id" id="id" type="text" class="form-control" placeholder="Input ID" >
+            </div>
     
-    <form class="form">
-        <div class="form-group">
-            <label for="id"><b>Id:</b></label>
-            <input name="id" id="id" type="text" class="form-control" placeholder="Input ID" >
+            <div class="form-group">
+                <label for="brand"><b>Brand:</b></label>
+                <input name="brand" id="brand" type="text" class="form-control" placeholder="Input Brand" >
+            </div>
+    
+            <div class="form-group">
+                <label for="model"><b>Model</b></label>
+                <input name="model" id="model" type="text" class="form-control" placeholder="Input Model" >
+            </div>
+    
+            <div class="form-group">
+                <label for="year"><b>Year</b></label>
+                <input name="year" id="year" type="text" class="form-control" placeholder="Input Year" >
+            </div>
+    
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Add Inventory</button>
+            </div>
+        </form>
+          <!-- Form Close -->
         </div>
+    </div>
 
-        <div class="form-group">
-            <label for="brand"><b>Brand:</b></label>
-            <input name="brand" id="brand" type="text" class="form-control" placeholder="Input Brand" >
-        </div>
+</body>
 
-        <div class="form-group">
-            <label for="model"><b>Model:</b></label>
-            <input name="model" id="model" type="text" class="form-control" placeholder="Input Model" >
-        </div>
-
-        <div class="form-group">
-            <label for="year"><b>Year:</b></label>
-            <input name="year" id="year" type="text" class="form-control" placeholder="Input Year" >
-        </div>
-
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Update Year</button>
-        </div>
-    </form>
-
- </body>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
 
