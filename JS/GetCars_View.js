@@ -12,7 +12,7 @@ new gridjs.Grid({
         {name: "year", width: "200px"} ],
         
     server: {
-        url:"http://localhost:8003/api/v1/inventory",
+        url:"https://cmps262-assignment5-api-part2.onrender.com/api/v1/inventory",
         then: (data) => {
             data.sort((a,b) => b.id - a.id);
             return data.map((cars) => [

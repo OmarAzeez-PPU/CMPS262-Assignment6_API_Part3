@@ -8,7 +8,7 @@ formEl.addEventListener('submit', event => {
         $.toaster({ priority : 'danger', title : 'Error Message', message : "Oops something went wrong"});
 
     } else {
-        fetch('http://localhost:8003/api/v1/inventory', {
+        fetch('https://cmps262-assignment5-api-part2.onrender.com/api/v1/inventory', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
