@@ -117,7 +117,7 @@ nav #icon {
 }
 
 section {
-    background: url(images/PPU.jpg) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
