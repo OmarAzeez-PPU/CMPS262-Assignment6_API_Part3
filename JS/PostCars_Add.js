@@ -17,6 +17,6 @@ formEl.addEventListener('submit', event => {
         }).then(res => res.json())
           .then(data => console.log(data))
           .then(error => console.log(error))
-          $.toaster({ priority : 'success', title : 'Iventory', message : "Omar has added an item"});
+          window.alert("New Inventory Addedd");
     }
 });
