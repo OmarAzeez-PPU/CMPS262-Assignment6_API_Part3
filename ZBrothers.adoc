@@ -31,4 +31,4 @@ APP,Location,Environment,URL,Status,Version
 |================================
 
 
-image::/images/diagram.png[alt=logo,width=600px][orientation=portrait]
+image::/images/diagram.png[alt=logo,width=700px][orientation=portrait]
