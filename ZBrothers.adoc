@@ -30,3 +30,4 @@ APP,Location,Environment,URL,Status,Version
 `{ZBrothers_APP}`,`{ZBrothers_LOC}`,`{ZBrothers_ENV}`,`{ZBrothers_URL}`,`{ZBrothers_STATUS}`,`{ZBrothers_VERSION}`
 |================================
 
+image::/images/diagram.png[alt=logo,width=250px][orientation=portrait]
