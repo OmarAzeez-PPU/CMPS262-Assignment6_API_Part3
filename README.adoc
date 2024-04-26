@@ -2,4 +2,4 @@
 ## UML Diagram
 
 
-image::/images/uml.png[alt=logo,width=250px][orientation=portrait]
+image::/images/uml.png[alt=logo,width=700px][orientation=portrait]
