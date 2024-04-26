@@ -1,5 +1,13 @@
 # Z Brothers Website
 
+:ZBrothers_APP: Z Brothers
+:ZBrothers_LOC: Warrendale PA
+:ZBrothers_ENV: Staging
+:ZBrothers_URL: https://omar-azeez.netlify.app/
+:ZBrothers_STATUS: Available
+:ZBrothers_VERSION: 1.0.1
+:imagedir: images
+
 ## What is the Z Brothers Website
 The Z Brothers website is for our car dealership to view/add/update inventory of our stock.
 
@@ -11,3 +19,11 @@ VS Code
 
 ## What programming languages were utilized
 HTML, CSS, JQuery, JavaScript
+
+[grid="row",format="csv]
+[options="header",cols="^,<,<s,<,>m"]
+|================================
+APP,Location,Environment,URL,Status,Version
+`{ZBrothers_APP}`,`{ZBrothers_LOC}`,`{ZBrothers_ENV}`,`{ZBrothers_URL}`,`{ZBrothers_STATUS}`,`{ZBrothers_VERSION}`
+|================================
+
