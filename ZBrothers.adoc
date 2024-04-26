@@ -9,6 +9,7 @@
 :imagedir: images
 
 image::logo.jpg[alt=logo,width=250px][orientation=portrait]
+
 ## What is the Z Brothers Website
 The Z Brothers website is for our car dealership to view/add/update inventory of our stock.
 
