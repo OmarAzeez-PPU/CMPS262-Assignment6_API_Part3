@@ -22,7 +22,7 @@ HTML, CSS, JQuery, JavaScript
 
 ## Application Environment Details
 [grid="row",format="csv"]
-[options="header",cols="^,<,<s,<,>m"]
+
 |================================
 APP,Location,Environment,URL,Status,Version
 `{ZBrothers_APP}`,`{ZBrothers_LOC}`,`{ZBrothers_ENV}`,`{ZBrothers_URL}`,`{ZBrothers_STATUS}`,`{ZBrothers_VERSION}`
