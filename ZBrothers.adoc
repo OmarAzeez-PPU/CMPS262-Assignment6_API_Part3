@@ -20,6 +20,7 @@ VS Code
 ## What programming languages were utilized
 HTML, CSS, JQuery, JavaScript
 
+## Application Environment Details
 [grid="row",format="csv"]
 [options="header",cols="^,<,<s,<,>m"]
 |================================
