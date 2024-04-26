@@ -9,3 +9,5 @@ It's available on IOS and Android
 ## What platform was the website developed on
 VS Code
 
+## What programming languages were utilized
+HTML, CSS, JQuery, JavaScript
