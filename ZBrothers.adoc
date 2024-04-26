@@ -1,7 +1,7 @@
 # Z Brothers Website
 
 ## What is the Z Brothers Website
-The z brothers’ website is for our car dealership to view/add/update inventory of our stock.
+The Z Brothers website is for our car dealership to view/add/update inventory of our stock.
 
 ## What mobile operating systems does the Z brother reside on 
 It's available on IOS and Android
